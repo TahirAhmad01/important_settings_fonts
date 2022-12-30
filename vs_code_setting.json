@@ -1,0 +1,116 @@
+{
+  "editor.suggestSelection": "first",
+  "workbench.iconTheme": "material-icon-theme",
+  "terminal.integrated.fontFamily": " \"Operator Mono Lig\", MesloLGM Nerd Font Mono, \"MonoLisa\", Consolas, 'Courier New', monospace",
+  "editor.fontFamily": " \"Operator Mono Lig\" ,\"MonoLisa\" , \"JetBrains Mono\",\"Fira Code\", Consolas, 'Courier New', monospace",
+
+  //eslint & prettier setup
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true,
+
+  //   "[javascript]": {
+  //   "editor.formatOnSave": true,
+  //   "editor.defaultFormatter": null
+  // },
+  // "[javascriptreact]": {
+  //   "editor.formatOnSave": true,
+  //   "editor.defaultFormatter": "esbenp.prettier-vscode"
+  // },
+  "javascript.validate.enable": true, //disable all built-in syntax checking
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true,
+    "source.fixAll.tslint": true,
+    "source.organizeImports": true
+  },
+  "eslint.alwaysShowStatus": true,
+  // emmet
+  "emmet.triggerExpansionOnTab": true,
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact"
+  },
+
+  //Learn with Sumit Official Theme customization
+  "workbench.colorCustomizations": {
+    "[Learn with Sumit Official Theme]": {
+      "sideBar.foreground": "#bababa",
+      "statusBar.foreground": "#a1a1a1",
+      "titleBar.activeForeground": "#d1d1d1",
+      "activityBar.foreground": "#f2f2f2",
+      "activityBar.activeBorder": "#f2f2f2",
+      "activityBar.inactiveForeground": "#707070"
+    }
+  },
+
+  //editor customize setup
+
+  "editor.tokenColorCustomizations": {
+    "textMateRules": [
+      {
+        "scope": [
+          //following will be in italic
+          "comment",
+          "punctuation.definition.comment",
+          "Keyword",
+          "Storage",
+          "keyword.control",
+          "variable.language",
+          "text.html.basic entity.other.attribute-name.html",
+          "text.html.basic entity.other.attribute-name",
+          "markup.italic",
+          "markup.bold markup.italic",
+          "markup.italic markup.bold",
+          "markup.quote markup.bold",
+          "markup.bold markup.italic string",
+          "markup.italic markup.bold string",
+          "markup.quote markup.bold string",
+          "entity.other.attribute-name",
+          "variable.language",
+          "tag.decorator.js entity.name.tag.js",
+          "tag.decorator.js punctuation.definition.tag.js",
+          "source.js constant.other.object.key.js string.unquoted.label.js",
+          "markup.quote",
+          "variable",
+          "entity.name.function",
+          "support.function",
+          "keyword.control.flow.js",
+          "keyword.control.import.js"
+        ],
+        "settings": {
+          "fontStyle": "italic"
+        }
+      }
+    ]
+  },
+
+  //Editor customization
+  "bracket-pair-colorizer-2.depreciation-notice": false,
+  "editor.fontSize": 15,
+
+  "editor.letterSpacing": 0.15,
+  "editor.fontWeight": "normal",
+  "editor.fontLigatures": true,
+  "terminal.integrated.fontSize": 15,
+  "files.autoSave": "afterDelay",
+  "cSpell.userWords": [
+    "noreferrer",
+    "Sani",
+    "sonarlint",
+    "Sumit",
+    "swal",
+    "Tahir",
+    "tailwindcss",
+    "vsintellicode"
+  ],
+  "editor.wordWrap": "on",
+  "editor.formatOnPaste": true,
+  "security.workspace.trust.untrustedFiles": "open",
+  "git.autofetch": true,
+  "tabnine.experimentalAutoImports": true,
+  "workbench.colorTheme": "Learn with Sumit Official Theme",
+  "editor.accessibilitySupport": "on",
+  "audioCues.diffLineDeleted": "off",
+  "audioCues.lineHasBreakpoint": "off",
+  "audioCues.lineHasError": "off",
+  "audioCues.lineHasInlineSuggestion": "off",
+  "audioCues.lineHasFoldedArea": "off"
+}
